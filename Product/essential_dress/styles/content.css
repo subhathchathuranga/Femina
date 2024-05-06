@@ -319,7 +319,7 @@
     margin-left: 0;
 }
 
-@media(max-width:1200px){
+@media(max-width:900px){
 
     .content-1-3{
         display: block;
@@ -390,7 +390,7 @@
 
 }
 
-@media(max-width:1200px){
+@media(max-width:900px){
     .content-1-4-1{
         overflow: auto;
     }

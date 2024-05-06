@@ -311,7 +311,7 @@
     font-size: 14px;
 }
 
-@media(max-width:1200px){
+@media(max-width:900px){
     .filterDetails{
         width:100vw;
     }

@@ -145,7 +145,7 @@ footer{
 }
 
 
-@media(max-width:1200px){
+@media(max-width:900px){
     .footer{
         width: calc(100% - 20px);
         grid-template-columns: auto;

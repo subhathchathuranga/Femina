@@ -27,7 +27,7 @@
     display: none;
 }
 
-@media(max-width:1240px){
+@media(max-width:940px){
 
     .image img:first-child{
         display: none;
@@ -81,7 +81,7 @@
 }
 
 
-@media(max-width:1240px){
+@media(max-width:940px){
     .radio{
         display: flex;
     }
@@ -152,7 +152,7 @@
     display: none;
 }
 
-@media(max-width:1200px){
+@media(max-width:900px){
   
     .content-1-1{
         display: none;
@@ -246,7 +246,7 @@
     display: block;
 }
 
-@media(max-width:1200px){
+@media(max-width:900px){
     .filterDetails{
         width:100vw;
     }
@@ -271,7 +271,7 @@
     right: 20px;
 }
 
-@media(max-width:1200px){
+@media(max-width:900px){
     .filterDetail i{
         right: -240px;
     }
@@ -282,7 +282,7 @@
 }
 
 
-@media(max-width:1200px){
+@media(max-width:900px){
     .filterBtn{
       display: inline;  
     }
@@ -292,13 +292,6 @@
     background-color:#7C0086 ;
     color: #FFFFFF;
 }
-
-/* @media(max-width:1200px){
-    .box{
-        width: 152px;
-        height: 333px;
-    }
-} */
 
 .content-1-2 img{
     width: 364px;
@@ -440,7 +433,7 @@
    
 }
 
-@media(max-width:1200px){
+@media(max-width:900px){
     .load-btn{
         margin-left: 95px;
     }
