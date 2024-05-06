@@ -46,6 +46,13 @@
     width: 100%;
 }
 
+.img{
+    opacity: 0.5;
+}
+
+.img.active{
+    opacity: 1;
+}
 .content-1-1-2{
     width: 427px;
     height: 100%;
@@ -157,7 +164,28 @@
     margin-right: 8px;
 }
 
-@media(max-width:1200px){
+.content-1-2 h2{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.content-1-2 p{
+    font-family: sans-serif;
+}
+
+.circle-0{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.size-guide p{
+    text-align: right;
+    margin-right: 90px;
+    color: #868686;
+}
+
+
+@media(max-width:900px){
     .content-1{
         display: block;
     }
@@ -165,12 +193,23 @@
     .content-1-1{
         width: 100%;
     }
+
     .content-1-1-1{
         display: none;
     }
 
     .content-1-2{
         width: calc(100vw - 60px);
+    }
+
+    .return{
+        width: 100%;
+        display: block;
+
+    }
+
+    .easy{
+        margin-left: 50px;
     }
 }
 
@@ -206,6 +245,8 @@
     align-items: center;
     padding: 0 20px 0 20px;
     border: #DFDFDF solid 1px;
+    background-color:#F0F2EF;
+
 }
 
 .Fitting p,.Fabric-and-Care p,.Product-details p,.Shipping-and-Return p,.Silk p{
@@ -236,6 +277,8 @@
     align-items: center;
     padding: 20px 20px 20px 20px;
     border: #DFDFDF solid 1px;
+    background-color:#F0F2EF;
+
 }
 .Fitting-details p,.Fabric-and-Care-details p,.Product-details-details p,.Shipping-and-Return-details p,.Silk-details p{
     font-size: 16px;
@@ -342,7 +385,8 @@
 .content-1-2-item-1-1-1{
     width: calc(100% - 30%);
     /* background-color: #7C0086; */
-    margin: 2px;
+    margin: 5px;
+    font-family: sans-serif;
 
 }
 
@@ -350,4 +394,10 @@
     .content-1-4-1{
         overflow: auto;
     }
+}
+
+.favourite-1{
+    position: absolute;
+    top: 5px;
+    right: 85px;
 }

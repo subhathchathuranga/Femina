@@ -19,3 +19,14 @@
 .location a:visited{
     color: #0C0C0C;
 }
+
+
+@media(max-width:900px){
+    .location{
+        
+    }
+
+    .location a{
+        font-size: 12px;
+    }
+}

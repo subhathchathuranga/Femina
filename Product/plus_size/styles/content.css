@@ -450,3 +450,66 @@
     text-decoration: none;
     color: #5A6D57;
 }
+
+
+.chkbx{
+    display: flex;
+    align-items: center;
+}
+
+.circles{
+    width: 15px;
+    height: 15px;
+    border-radius: 24px;
+    margin: 2px;
+}
+
+.circles-1{
+    background-color: #0C0C0C;
+}
+
+.circles-2{
+    background-color: #CA2929;
+}
+
+.circles-3{
+    background-color: #748C70;
+}
+
+.circles-4{
+    background-color: #909225;
+}
+
+.circles-5{
+    background-color: #19418E;
+}
+
+.circles-6{
+    background-color: #D0A5EA;
+}
+
+.circles-7{
+    background-color: #CA2980;
+}
+
+.circles-8{
+    background-color: #7DC3EB;
+}
+
+.circles-9{
+    background-color: #CA6D29;
+}
+
+.circles-10{
+    background-color: #FFFFFF;
+}
+
+.favourite-1{
+    position: absolute;
+    top: 5px;
+    right: 75px;
+}
+
+.content-1-2-item-1-1 p{
+    font-family: sans-serif;
+}

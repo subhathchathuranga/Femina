@@ -127,3 +127,81 @@ icon10.addEventListener("click", function () {
     iconClk2.classList.remove("close");
     iconClk3.classList.remove("active");
     });
+
+
+    
+
+let img1 = document.getElementById("img-1");
+let img2 = document.getElementById("img-2");
+let img3 = document.getElementById("img-3");
+let img4 = document.getElementById("img-4");
+
+img1.addEventListener("click", function () {
+      let imgclk1 = img1.src;
+      let imgclk2 = document.querySelector(".img-1");
+      let imgclk3 = document.querySelector(".img-2");
+      let imgclk4 = document.querySelector(".img-3");
+      let imgclk5 = document.querySelector(".img-4");
+      imgclk2.classList.add("active");
+      imgclk3.classList.remove("active");
+      imgclk4.classList.remove("active");
+      imgclk5.classList.remove("active");
+      
+      let defimg=document.getElementById("def-img");
+      defimg.src=imgclk1;
+
+
+    });
+
+img2.addEventListener("click", function () {
+        let imgclk1 = img2.src;
+        let imgclk2 = document.querySelector(".img-1");
+        let imgclk3 = document.querySelector(".img-2");
+        let imgclk4 = document.querySelector(".img-3");
+        let imgclk5 = document.querySelector(".img-4");
+
+        imgclk2.classList.remove("active");
+        imgclk3.classList.add("active");
+        imgclk4.classList.remove("active");
+        imgclk5.classList.remove("active");
+        
+        
+        let defimg=document.getElementById("def-img");
+        defimg.src=imgclk1;
+  
+  
+});
+
+img3.addEventListener("click", function () {
+    let imgclk1 = img3.src;
+    let imgclk2 = document.querySelector(".img-1");
+    let imgclk3 = document.querySelector(".img-2");
+    let imgclk4 = document.querySelector(".img-3");
+    let imgclk5 = document.querySelector(".img-4");
+    imgclk2.classList.remove("active");
+    imgclk3.classList.remove("active");
+    imgclk4.classList.add("active");
+    imgclk5.classList.remove("active");
+        
+    let defimg=document.getElementById("def-img");
+    defimg.src=imgclk1;
+  
+  
+});
+
+img4.addEventListener("click", function () {
+    let imgclk1 = img4.src;
+    let imgclk2 = document.querySelector(".img-1");
+    let imgclk3 = document.querySelector(".img-2");
+    let imgclk4 = document.querySelector(".img-3");
+    let imgclk5 = document.querySelector(".img-4");
+    imgclk2.classList.remove("active");
+    imgclk3.classList.remove("active");
+    imgclk4.classList.remove("active");
+    imgclk5.classList.add("active");
+        
+    let defimg=document.getElementById("def-img");
+    defimg.src=imgclk1;
+  
+  
+});

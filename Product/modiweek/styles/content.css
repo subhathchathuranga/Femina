@@ -115,7 +115,7 @@
 }
 
 
-@media(max-width:1200px){
+@media(max-width:900px){
     .content-1{
         width: 100%;
         display: block;
@@ -133,7 +133,10 @@
     height: 213px;
    }
 }
-
+.content-1-2 h2,p{
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
 
 .content-2{
     width: calc(100% - 160px);
@@ -156,7 +159,7 @@
     height: 426px;
 }
 
-@media(max-width:1200px){
+@media(max-width:900px){
 
     .content-2{
         width: calc(100% - 60px);
