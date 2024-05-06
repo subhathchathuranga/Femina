@@ -1,0 +1,169 @@
+footer{
+    background-color:#404040 ;
+}
+.footer{
+    width: calc(100% - 160px);
+    margin: auto;
+    /* height: 100px; */
+    position: relative;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.footer-1{
+    /* width: 40%; */
+    /* height: 100px; */
+    /* background-color: aqua; */
+    margin-right: 5%;
+}
+
+
+
+.footer-1 h3{
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+.mail-btn{
+    
+    display: flex;
+    position: relative;
+    margin-top: 25px;
+}
+
+
+.mail-btn input{
+    width: 410px;
+    height: 30px;
+    background-color: #404040;
+    outline: solid white 1px;
+    border: none;
+    padding-left: 15px;
+    
+
+}
+
+.mail-btn i{
+    color: #FFFFFF;
+    
+
+}
+
+.icon-cls{
+    position: absolute;
+    right: 230px;
+    top: 5px;
+}
+
+
+.checkbox{
+    display: flex;
+    margin-top: 35px;
+}
+
+
+.checkbox p{
+    margin-left: 8px;
+    font-size: 15px;
+    color: #FFFFFF;
+  
+}
+
+
+.footer-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 15px;
+}
+
+.footer-2-1 ul li{
+    list-style: none;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.footer-2-2 ul li{
+    list-style: none;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.footer-2-3 ul li{
+    list-style: none;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+
+.footer-2-1 ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+.footer-2-2 ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+.footer-2-3 ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+
+.user{
+    position: absolute;
+    right: 90px;
+    bottom: 40px;
+    border: solid white 1px;
+    padding: 12px;
+    background-color: #7C0086;
+    color: #FFFFFF;
+}
+
+
+
+
+.social-icons i{
+    margin: 10px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+.copyright p{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: left;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+
+@media(max-width:900px){
+    .footer{
+        width: calc(100% - 20px);
+        grid-template-columns: auto;
+        margin: auto;
+    }
+
+    .footer-2{
+        grid-template-columns: auto auto;
+    }
+
+    .mail-btn input{
+        width: calc(100% - 20px)
+        
+    
+    }
+
+    .icon-cls{
+        right: 20px;
+        top: 5px;
+    }
+}

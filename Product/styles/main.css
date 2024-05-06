@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: aqua;
+} */
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.location a:link{
+    color: #748C70;
+}
+
+.location a:visited{
+    color: #0C0C0C;
+}
