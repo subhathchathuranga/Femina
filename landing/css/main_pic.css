@@ -1,0 +1,37 @@
+/*mainpic*/
+.mainpic{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    /*background-color: aqua;*/
+
+}
+
+.mainpic p
+{
+    position: absolute;
+    top: 300px;
+    left: 108px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 34px;
+    line-height: 61.2px;
+}
+
+.mainpic a button{
+    position: absolute;
+    left: 108px;
+    top: 450px;
+    width: 184px;
+    height: 40px;
+   /* padding: 16px;*/
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #0C0C0C;
+}

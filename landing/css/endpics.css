@@ -1,0 +1,23 @@
+/*endpics*/
+.headers h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.endpics{
+    width: 1224px;
+    height: 751px;
+    /*background-color: black;*/
+    display: flex;
+   /* align-items: center;
+    justify-content: center;*/
+}
+
+.cl-1{
+    margin-left: 115px;
+}
+
+.cl-2 img,
+.cl-3 img{
+    display: block;
+}

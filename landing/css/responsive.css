@@ -1,0 +1,15 @@
+@media screen and(max-device-width:360px) {
+    .content{
+        width: 360px;
+        height: 100vh;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+    
+}

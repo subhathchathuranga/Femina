@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Femina</title>
+
+    <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/navbar.css" rel="stylesheet">
+    <link href="./css/main_pic.css" rel="stylesheet">
+    <link href="./css/best-seller.css" rel="stylesheet">
+    <link href="./css/collect.css" rel="stylesheet">
+    <link href="./css/modiweek.css" rel="stylesheet">
+    <link href="./css/sustainability.css" rel="stylesheet">
+    <link href="./css/endpics.css" rel="stylesheet">
+    <link href="./css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/collection-menu.css">
+    <link href="./css/responsive.css" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <div class="content">
+
+        <!--nav bar-->
+        <div class="navbar">
+            <!--header sentence-->
+            <div class="header">
+                <p>Enjoy Free Shipping On All Orders</p>
+            </div>
+            <!--menu bar-->
+            <div class="menubar">
+                <!--responsive side bar-->
+                <div class="menu-icon">
+                    <i class="ri-menu-line" onclick=showSideMenu()></i>
+                </div>
+                <!--logo-->
+                <div class="logo">
+                    <h2>femina</h2>
+                    <p>women clothing</p>
+                </div>
+                <!--menu-->
+                <div class="menu">
+                    <!--Collection-->
+                    <div class="dropdown"><button class="dropbtn" onclick="myFunction()">Collection</button>
+                        <div class="dropdown-content" id="myDropdown">
+                            <div class="content-1">
+                                <div class="column column-1 column-3">
+                                    <p class="p-1">Category</p>
+                                    <a href="">
+                                        <p>Shop All</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Blouses & Top</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Pants</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Dressess & Jumpuits</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Outwear & Jackets</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Pullovers</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Tees</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Shorts & Skirts</p>
+                                    </a>
+                                </div>
+                                <div class="column column-3">
+                                    <p class="p-1">Featured</p>
+                                    <a href="">
+                                        <p>New In</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Modiweek</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Plis Size</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Best Seller</p>
+                                    </a>
+                                </div>
+                                <div class="column column-3">
+                                    <p class="p-1">More</p>
+                                    <a href="">
+                                        <p>Bundles</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Occasion Wear</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Matching Set</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Suiting</p>
+                                    </a>
+                                </div>
+                                <div class="column column-2">
+                                    <img src="./images/collection-menu/img-1.png" alt="Blouses">
+                                    <p>Blouses</p>
+                                </div>
+                                <div class="column column-2">
+                                    <img src="./images/collection-menu/Rectangle 12383.png" alt="plus size">
+                                    <p>Plus Size</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--New In-->
+                    <div class="dropdown-1"><button class="dropbtn-1" onclick="myFunction1()">New In</button>
+                        <div class="dropdown-content" id="myDropdown-1">
+                            <div class="content-1">
+                                <div class="column column-1 column-3">
+                                    <p class="p-1">Category</p>
+                                    <a href="">
+                                        <p>Shop All</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Top & Blouses</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Tees</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Pants</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Jackets & Outwears</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Pullovers</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Dressess & Jumpuits</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Shorts & Skirts</p>
+                                    </a>
+                                </div>
+                                <div class="column column-3">
+                                    <p class="p-1">Trending</p>
+                                    <a href="">
+                                        <p>Plis Size</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Fall Collection</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Modiweek</p>
+                                    </a>
+                                </div>
+                                <div class="column column-3"></div>
+                                <div class="column column-2">
+                                    <img src="./images/newin-menu/img-1.png" alt="Fall Collection">
+                                    <p>Fall Collection</p>
+                                </div>
+                                <div class="column column-2">
+                                    <img src="./images/newin-menu/img-2.png" alt="Blouses">
+                                    <p>Blouses</p>
+                                </div>
+                                <div class="column column-2">
+                                    <img src="./images/newin-menu/img-3.png" alt="Dresses">
+                                    <p>Dresses</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Modi Week-->
+                    <div class="dropdown"><button>ModiWeek</button></div>
+                    <!--Plus Size-->
+                    <div class="dropdown-2"><button class="dropbtn-2" onclick="myFunction2()">Plus Size</button>
+                        <div class="dropdown-content" id="myDropdown-2">
+                            <div class="content-1">
+                                <div class="column column-1 column-3">
+                                    <p class="p-1">Category</p>
+                                    <a href="">
+                                        <p>Shop All</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Top & Blouses</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Tees</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Pants</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Jackets & Outwears</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Pullovers</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Dressess & Jumpuits</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Shorts & Skirts</p>
+                                    </a>
+                                </div>
+                                <div class="column column-3"></div>
+                                <div class="column column-3"></div>
+                                <div class="column column-2">
+                                    <img src="./images/plus-size-menu/img-1.png" alt="Pants">
+                                    <p>Pants</p>
+                                </div>
+                                <div class="column column-2">
+                                    <img src="./images/plus-size-menu/img-2.png" alt="Dresses">
+                                    <p>Dresses</p>
+                                </div>
+                                <div class="column column-2">
+                                    <img src="./images/plus-size-menu/img-3.png" alt="Blouses">
+                                    <p>Blouses</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--sustainability-->
+                    <div class="dropdown-3"><button class="dropbtn-3" onclick="myFunction3()">Sustainability</button>
+                        <div class="dropdown-content" id="myDropdown-3">
+                            <div class="content-1">
+                                <div class="column column-1 column-3">
+                                    <p class="p-1">Sustainability </p>
+                                    <a href="">
+                                        <p>Mission</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Processing</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Material</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Packaging</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Product Care</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Our Suppliers</p>
+                                    </a>
+                                </div>
+                                <div class="column column-3"></div>
+                                <div class="column column-3"></div>
+                                <div class="column column-2">
+                                    <img src="./images/sustainability/Frame 26086904.png" alt="">
+                                </div>
+                                <div class="column column-2">
+                                    <img src="./images/sustainability/Frame 26086903.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--icons-->
+                <div class="icons">
+                    <a href=""><i class="ri-search-line"></i></a>
+                    <a href=""><i class="ri-user-line"></i></a>
+                    <a href=""><i class="ri-heart-line"></i></a>
+                    <a href=""><i class="ri-shopping-bag-line"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!--image-->
+        <div class="mainpic">
+            <img src="./images/main/img-1.png" alt="main image">
+            <p>Elegance in simplicity, <br>Earth’s harmony</p>
+            <a href=""><button>New In</button></a>
+        </div>
+
+        <!--Best Sellers-->
+        <div class="headers">Best Sellers</div>
+        <div class="best-sellers">
+            <div class="best-sellers-images">
+                <img src="./images/best-sellers/img-1.png">
+                <i class="ri-heart-line" onclick="setColor()" id="btn"></i>
+                <button class="button">Next</button>
+                <h3>Tailored Stretch</h3>
+                <div class="price">
+                    <p>Turn It Up Pants</p>
+                    <h4>$180</h4>
+                </div>
+                <div class="color">
+                    <div class="color-1 color-10"></div>
+                    <div class="color-2 color-10"></div>
+                    <div class="color-3 color-10"></div>
+                </div>
+            </div>
+            <div class="best-sellers-images">
+                <img src="./images/best-sellers/img-2.png">
+                <i class="ri-heart-line" onclick="setColor1()" id="btn1"></i>
+                <button class="button">Next</button>
+                <h3>Technical Silk</h3>
+                <div class="price">
+                    <p>Make A Splash</p>
+                    <h4>$120</h4>
+                </div>
+                <div class="color">
+                    <div class="color-4 color-10"></div>
+                    <div class="color-5 color-10"></div>
+                    <div class="color-6 color-10"></div>
+                </div>
+            </div>
+            <div class="best-sellers-images">
+                <img src="./images/best-sellers/img-3.png">
+                <i class="ri-heart-line" onclick="setColor2()" id="btn2"></i>
+                <button class="button">Next</button>
+                <h3>Cool Weave</h3>
+                <div class="price">
+                    <p>Anywhere Dress</p>
+                    <h4>$210</h4>
+                </div>
+                <div class="color">
+                    <div class="color-7 color-10"></div>
+                    <div class="color-8 color-10"></div>
+                    <div class="color-9 color-10"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--collection-->
+        <div class="headers">Collection</div>
+        <div class="collection">
+            <div class="columan-1">
+                <div class="set-1">
+                    <img src="./images/collection/img-1.png">
+                    <button>Blouses</button>
+                </div>
+                <div class="set-2">
+                    <img src="./images/collection/img-3.png">
+                    <button>Dresses</button>
+                </div>
+            </div>
+            <div class="columan-2">
+                <div class="set-3">
+                    <img src="./images/collection/img-2.png">
+                    <button>Pants</button>
+                </div>
+                <div class="set-4">
+                    <img src="./images/collection/img-4.png" class="img-4">
+                    <button>Outwear</button>
+                </div>
+            </div>
+        </div>
+
+        <!--modiweek-->
+        <div class="headers">Modiweek</div>
+        <div class="modiweek">
+            <div class="day-1 day">
+                <div>
+                    <img src="./images/modiweek/img-1.png" alt="sunday">
+                    <i class="ri-heart-line"></i>
+                    <button>Add To Cart</button>
+                </div>
+                <h6>Sunday</h6>
+            </div>
+            <div class="day-2 day">
+                <div>
+                    <img src="./images/modiweek/img-2.png" alt="monday">
+                    <i class="ri-heart-line"></i>
+                    <button>Add To Cart</button>
+                </div>
+                <h6>Monday</h6>
+            </div>
+            <div class="day-3 day">
+                <div>
+                    <img src="./images/modiweek/img-3.png" alt="tuesday">
+                    <i class="ri-heart-line"></i>
+                    <button>Add To Cart</button>
+                </div>
+                <h6>Tuesday</h6>
+            </div>
+            <div class="day-4 day">
+                <div>
+                    <img src="./images/modiweek/img-4.png" alt="wednesday">
+                    <i class="ri-heart-line"></i>
+                    <button>Add To Cart</button>
+                </div>
+                <h6>Wednesday</h6>
+            </div>
+            <div class="day-5 day">
+                <div>
+                    <img src="./images/newin-menu/img-1.png" alt="thursday">
+                    <i class="ri-heart-line"></i>
+                    <button>Add To Cart</button>
+                </div>
+                <h6>Thursday</h6>
+            </div>
+        </div>
+
+        <!--sustainability-->
+        <div class="sustainability">
+
+            <img src="./images/end-photos/sustainability.png" alt="homepage-sustainability image">
+            <div class="sus-1">
+                <p>Stylish sustainability in clothing promotes eco-<br>friendly choices for a greater future</p>
+                <button>Sustainability</button>
+            </div>
+        </div>
+        <!--endpics-->
+        <div class="headers">
+            <h3>Follow Us <a href="">@Femina</a></h3>
+        </div>
+        <div class="endpics">
+            <div class="cl-1">
+                <img src="./images/end-photos/Frame 427319383.png" alt="">
+            </div>
+            <div class="cl-2">
+                <img src="./images/end-photos/Frame 427319384.png" alt="">
+                <img src="./images/end-photos/Frame 427319386.png" alt="">
+            </div>
+            <div class="cl-3">
+                <img src="./images/end-photos/Frame 427319385.png" alt="">
+                <img src="./images/end-photos/Frame 427319387.png" alt="">
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="part-1">
+                <h5>Join our club, get 15% off for your Birthday</h5>
+                <div class="part-01"><input type="text" id="form_id" placeholder="Enter Your Email Address"><i
+                        class="ri-close-line" onclick="clearData()"></i></div>
+                <div class="part-02"><input type="checkbox" id="ok">
+                    <p>By Submittng your email, you agree to receive advertising emails <br>from Femina.</p>
+                </div>
+                <div class="part-03">
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-facebook-circle-fill"></i>
+                    <i class="ri-pinterest-fill"></i>
+                    <i class="ri-tiktok-fill"></i>
+                </div>
+                <p class="para">&copy; 2024 Fuchsius. All Rights Reserved</p>
+            </div>
+            <div class="part-2">
+                <div class="columan-3">
+                    <h4>About Femina</h4>
+                    <p>Collection</p>
+                    <p>Sustainability</p>
+                    <p>Privacy Policy</p>
+                    <p>Support System</p>
+                    <p>Terms & Condition</p>
+                    <p>Copyright Notice</p>
+                </div>
+                <div class="columan-3">
+                    <h4>Help & Support</h4>
+                    <p>Orders & Shipping</p>
+                    <p>Returns & Refunds</p>
+                    <p>FAQs</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="columan-3">
+                    <h4>Join Up</h4>
+                    <p>Femina Club</p>
+                    <p>Careers</p>
+                    <p>Visit Us</p>
+                </div>
+                <!--<img src="./images/footer-icons/Vector.png" alt="icon">-->
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
