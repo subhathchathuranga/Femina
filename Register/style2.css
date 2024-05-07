@@ -1,0 +1,86 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+.background {
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   min-height:100vh;
+   background-image:url("./image/Register1.png");
+   background-repeat:no-repeat;
+   background-size:cover;
+   z-index:-1;
+   filter:blur(5px);
+   
+   
+   
+}
+.close-icon6 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.close-icon7 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Take full height of viewport */
+}
+.content {
+    width: 600px; /* Set width of the box */
+    padding: 80px;
+    background-color: white;
+    border: 2px solid #ccc;
+    text-align: center;
+
+    color:black;
+	margin-top:200px;
+	text-align:center;
+}
+.content h1{
+	font-size:20px;
+	margin-bottom:10px;
+}
+.content p{
+	line-height: 180%;
+	padding-top:20px;
+	font-size:15px;
+	text-transform: capitalize;
+}
+.if-you-did {
+  color: var(--black);
+}
+.click-here{
+	 align-self: stretch;
+  position: relative;
+  line-height: 180%;
+  text-transform: capitalize;
+  color: var(--primary);
+}
+.link a{
+	
+    color: #7cb69d;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

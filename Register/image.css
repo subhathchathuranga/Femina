@@ -1,0 +1,15 @@
+.image{
+width:0;
+height:50%;
+position:absolute;
+bottom:150px;
+left:200px;
+}
+.image img{
+	height:140%;
+	position:absolute;
+	left:80px;
+	margin-top:150px;
+	transform:translateY(-50%);
+	
+}

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --bodylg: Montserrat;
+  --font-league-spartan: "League Spartan";
+  --font-gill-sans-mt: "Gill Sans MT";
+
+  /* font sizes */
+  --bodylg-size: 18px;
+  --h5-size: 20px;
+  --bodymd-size: 16px;
+  --captionmd-size: 12px;
+  --buttonsm-size: 14px;
+  --h3-size: 32px;
+  --font-size-lgi: 19px;
+  --font-size-7xl: 26px;
+  --font-size-3xs: 10px;
+  --h4-size: 24px;
+
+  /* Colors */
+  --white: #fff;
+  --neutral-gray404040: #404040;
+  --primary-primary50: #d1d9cf;
+  --neutral-graycbcbcb: #cbcbcb;
+  --primary-primary25: #f0f2ef;
+  --primary: #748c70;
+  --black: #0c0c0c;
+  --color-purple: #7c0086;
+  --neutral-gray606060: #606060;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+  --gap-85xl: 104px;
+  --gap-33xl: 52px;
+  --gap-7xl: 26px;
+  --gap-5xs: 8px;
+  --gap-24xl: 43px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+  --gap-13xl: 32px;
+  --gap-mid: 17px;
+  --gap-3xs: 10px;
+  --gap-xl: 20px;
+  --gap-12xs: 1px;
+  --gap-21xl: 40px;
+
+  /* Paddings */
+  --padding-29xl: 48px;
+  --padding-90xl: 109px;
+  --padding-13xl: 32px;
+  --padding-89xl: 108px;
+  --padding-35xl: 54px;
+  --padding-12xl: 31px;
+  --padding-xl: 20px;
+  --padding-2xl: 21px;
+  --padding-xs-5: 11.5px;
+  --padding-lgi: 19px;
+  --padding-xs: 12px;
+  --padding-9xs: 4px;
+  --padding-12xs: 1px;
+  --padding-6xs: 7px;
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-5xs: 8px;
+  --padding-11xs: 2px;
+  --padding-10xs: 3px;
+  --padding-lg: 18px;
+  --padding-7xs: 6px;
+  --padding-8xs: 5px;
+  --padding-base-4: 16.4px;
+  --padding-base-3: 16.3px;
+  --padding-9xl-1: 28.1px;
+  --padding-9xl: 28px;
+  --padding-579xl: 598px;
+  --padding-280xl: 299px;
+  --padding-130xl: 149px;
+  --padding-270xl: 289px;
+  --padding-54xl: 73px;
+  --padding-127xl: 146px;
+
+  /* Border radiuses */
+  --br-7xs: 6px;
+  --br-31xl: 50px;
+}
