@@ -1,5 +1,5 @@
 .content{
-    max-width: 1440px;
+    width: 100%;
     /* height: 100vh; */
     /* background-color: aquamarine; */
 }
@@ -19,7 +19,7 @@
 
 
 .image img{
-    width: 100vw;
+    width: 100%;
     height: 655px ;
 }
 
@@ -29,6 +29,11 @@
 
 @media(max-width:940px){
 
+    .content{
+        width: 100%;
+        /* height: 100vh; */
+        /* background-color: aquamarine; */
+    }
     .image img:first-child{
         display: none;
     }
@@ -184,7 +189,7 @@
 
 }
 .filterFunc{
-    width: 100vw;
+    width: 100%;
     display: flex;
 }
 
@@ -507,6 +512,18 @@
 
 }
 
+.circle-8{
+    width: 20px;
+    height: 20px;
+    border: #0C0C0C solid 1px;
+
+}
+
+.crcl{
+    justify-content: center;
+    margin-top: 8px;
+}
+
 .load-btn{
     width: 184px;
     height: 40px;
@@ -530,4 +547,12 @@
 .load-btn a{
     text-decoration: none;
     color: #5A6D57;
+}
+
+.filterBox-1.active,.filterBox-2.active,.filterBox-3.active,.filterBox-4.active{
+    display: none;
+}
+
+.chk-clss-1.active,.chk-clss-2.active,.chk-clss-3.active,.chk-clss-4.active,.chk-clss-5.active{
+    display: none;
 }
